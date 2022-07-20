@@ -6,7 +6,7 @@ const amountToWords = (floatNumber, decimalPlaces) => {
     .split(".");
   numberInWords = numberToWords(number);
   decimalInWords = numberToWords(decimal);
-  console.log({ numberInWords, decimalInWords, number, decimal });
+  // console.log({ numberInWords, decimalInWords, number, decimal });
   return { numberInWords, decimalInWords };
 };
 

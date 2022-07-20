@@ -50,7 +50,7 @@ const numberToWords = (input) => {
 
   const [, n5, n4, n3, n2, n1] = ("000000000" + numStr).substr(-9).match(regex); // left pad zeros
 
-  console.log({ n5, n4, n3, n2, n1 });
+  // console.log({ n5, n4, n3, n2, n1 });
 
   let amountInWords = "";
   amountInWords +=
